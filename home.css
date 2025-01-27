@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nar bar */
+.nav-parent{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    /* border-radius: 16px; */
+    margin: 0 auto;
+    padding: 20px 6px;
+    background: white;
+    transition: 3s;
+    z-index: 30;
+
+    /* change nav bar color on scroll */
+    animation: nav  linear forwards;
+    animation-timeline: view();
+    animation-range-start:130vh ;
+    animation-range-end:100vh ;
+
+    position: sticky;
+    top: 0;
+}
+
+@keyframes nav{
+    100%{
+        width: 100%;
+        background-color: black;
+        box-shadow: 1px 2px 3px 2px rgb(44, 43, 43);
+        transition: 2s;
+    }
+}
+
+.nav-parent .cen{
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav-parent .cen p{
+    margin: 0 10px;
+}
+
+.nav-parent .cen p:hover{
+    border-bottom: 2px solid chocolate ;
+    padding-bottom: 2px;
+}
+
+.nav-parent .cen p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chocolate;
+
+}
+.nav-parent .cen p a:active{
+    color: black;
+}
+
+.nav-parent .name{
+    margin: 0px 53px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    transition: 2s;
+
+    /* change brand name color */
+    animation: brand 2s linear forwards;
+    animation-timeline: view();
+    animation-range-start:130vh ;
+    animation-range-end:100vh ;
+}
+
+@keyframes brand {
+    100%{
+        color: white;
+    }
+    
+}
+
+
+.main{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 20px;
+    height: 89vh;
+    background-image: url('../image/Ban.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    
+}
+
+.main .textbox{
+    /* border: 3px solid green; */
+    width: 30%;
+    margin-top: 70vh ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.main .main-text{
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    /* margin: 0px auto; */
+    justify-content: center;
+}
+.main .textbox .btns{
+    display: flex;
+    margin: 0px auto;
+    padding-left: 70px;
+}
+
+.main .textbox .btns .btn{
+    margin: 7px 6px;
+    padding: 13px 8px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.582);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.main .textbox .btns .btn:hover{
+    scale: .9;
+}
+
+
+.heading1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.product-parent{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+}
+
+.product-parent .child{
+    /* border: 2px solid black; */
+    width: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1.5s;
+
+}
+
+.product-parent .child img{
+    /* border: 2px solid brown; */
+    width: 100%;
+}
+
+.product-parent .child-text{
+    text-align: center;
+}
+
+.child:hover{
+    border: 2px solid black;
+    width: 18%; 
+
+}
+
+/* child 2 */
+.product-parent2{
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    padding: 24px 8px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.product-parent2 .child2{
+    /* border: 2px solid red; */
+    width: 45%;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.product-parent2 .child2 img{
+    width: 100%;
+}
+
+.product-parent2 .child2 .btn1{
+    background-color: rgba(255, 255, 255, 0.171);
+    color: white;
+    font-size: 20px;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 6px 4px;
+    transition: 800ms;
+    font-weight: bold;
+    cursor: pointer;
+
+
+    position: relative;
+    top: -720px;
+    
+}
+
+.product-parent2 .child2 .btn1:hover{
+    border: 1px solid blue;
+    box-shadow: 1px 2px 3px 1px blue;
+    scale: .9;
+}
+
+.product-parent2 .child2 center .child2-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+
+    position: relative;
+    top: -200px;
+}
+
+.product-parent2 .child2 center .btn2{
+    padding: 13px 9px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1.2s;
+
+    position: relative;
+    top: -190px;
+}
+
+.product-parent2 .child2 center .btn2:hover{
+    padding: 10px 7px;
+}
+
+.fea{
+    margin-bottom: 10px;
+    margin-top: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.product-parent3{
+    /* border: 2px solid blue; */
+    /* padding: 30px 0px; */
+    display: flex;
+    justify-content: center;
+    height: 110vh;
+    margin-top: 90px;
+    overflow: hidden;
+    margin-bottom: 140px;
+}
+
+.product-parent3 .child3{
+    width: 45%;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    /* height: 120vh; */
+
+    /* padding: 40px 0px; */
+    overflow: hidden;
+}
+
+#vid{
+    width: 100%;
+}
+
+
+.child3 center{
+    margin-top: 280px;
+    /* border: 2px solid yellowgreen; */
+    padding: 10px 6px;
+}
+
+.child3 center .head{
+
+    /* border:  2px solid red; */
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 9px 0px;
+    font-size: 25px;
+    
+    
+}
+
+.child3 center .child3-text{
+    /* border: 2px solid blue; */
+    margin: 10px 0px;
+    width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.child3 center .link a{
+   color: black;
+   font-weight: bold;
+   margin: 10px 0px;
+   font-size: 15px;
+}
+
+.text3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.product-parent4{
+    /* border: 2px solid blue; */
+    height: 50vh;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.product-parent4 .child4{
+    /* border: 2px solid red; */
+    width: 25%;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+
+}
+.video{
+    width: 100%;
+    height: 50vh;
+}
+
+.child4-text{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.child4-text1{
+    margin-top: 3px;
+    margin-bottom: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lin{
+    padding: 10px 0px;
+    color: black;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.979);
+    padding-top: 70px;
+}
+
+.footer center h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+article{
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.child-parent{
+    /* border: 2px solid blue; */
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.foot-child{
+    /* border: 2px solid red; */
+    width: 30%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.pp{
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.f-text{
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.f-text li{
+    color: white;
+}
+
+.li-text{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px)  {
+
+    .nav-parent{
+        width: 100%;
+        display: block;
+        background-color: black;
+        justify-content: center;
+
+        
+    }
+
+    .nav-parent .cen{
+        /* margin-left: 40px; */
+        justify-content: center;
+    }
+
+    .nav-parent .cen p a{
+        font-size: 19px;
+        color: white;
+        transition: 2s;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .main{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .main .textbox{
+        width: 100%;
+        margin-top: 350px;
+    }
+
+
+    .main .main-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .textbox .btns{
+        /* border: 2px solid black; */
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .product-parent{
+        width: 100%;
+        display: block;
+
+    }
+
+    .product-parent .child{
+        width: 50%;
+        /* border: 2px solid black; */
+        margin: 5px auto;
+    }
+
+    .product-parent2{
+        width: 100%;
+        display: block;
+    }
+
+    .product-parent2 .child2{
+        width: 100%;
+
+    }
+
+    .product-parent3{
+        width: 100%;
+        display: block;
+        padding: 10px 10px;
+        /* border: 2px solid black; */
+        height: 1200px;
+        
+    }
+
+    .product-parent3 .child3{
+        width: 100%;
+        /* border: 2px solid red; */
+        padding: 0;
+        margin: 30px 0px;
+    }
+
+    .video{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .child3 .cen{
+        margin-top: -6px;
+    }
+
+    .child3 .cen .child3-text{
+        width: 70%;
+    }
+
+    .child4-text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .child4-text1{
+        display: none;
+    }
+
+    .lin{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+    }
+
+}
