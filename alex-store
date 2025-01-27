@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex store | Home</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home-animation.css">
+</head>
+<body>
+    
+
+     <!-- nav-bar -->
+     <section class="nav-parent">
+        <div class="cen">
+
+            <p><a href="home.html">Home</a></p>
+            <p><a href="Project.html">Services</a></p>
+
+            <h3 class="name">Apex Store</h3>
+
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="logs.html">Logs</a></p>
+        </div>
+
+    </section>
+    <!-- body -->
+
+    <div class="main">
+
+        <div class="textbox">
+
+            <p class="main-text">Apex Store Gift Giving</p>
+    
+            <div class="btns">
+
+                <button class="btn">FOR HER</button>
+                <button class="btn">FOR HIM</button>
+            </div>
+        </div>
+
+        
+        
+    </div>
+    
+    
+    
+    <p class="heading1">SOMETHING SPECIAL FOR THE HOLIDAYS</p>
+
+
+    <!-- product parent 1-->
+    <div class="product-parent">
+
+        <div class="child">
+
+            <img src="./image/pexels-mart-production-8801089.jpg">
+
+            <p class="child-text">
+                WOMEN'S HANDBAG
+            </p>
+
+        </div>
+
+        <div class="child">
+
+            <img src="./image/pexels-jarosz-1687719.jpg">
+
+            <p class="child-text">
+                NECKLACE
+            </p>
+
+        </div>
+
+        <div class="child">
+
+            <img src="./image/pexels-pixabay-52518.jpg">
+
+            <p class="child-text">
+                JEANS
+            </p>
+
+        </div>
+
+        <div class="child">
+
+            <img src="./image/audemars-piguet-royal-oak-offshore-diver-special-edition-watch-orange-dial-42mm-15710stooa070ca01-288623_400x400.webp">
+
+            <p class="child-text">
+                MEN'S WATCH
+            </p>
+
+        </div>
+    </div>
+
+
+    <!-- product parent 2 -->
+     <div class="product-parent2">
+
+        <div class="child2">
+
+            <img src="./image/pexels-chriatian-enriquez-1597695-3067842.jpg">
+            
+            <center>
+
+                <button type="button" class="btn1">Men's</button>
+
+                <p class="child2-text">Gifts for Him</p>
+
+                <button type="button" class="btn2">EXPLORE THE SELECON</button>
+                
+            </center>
+        </div>
+
+
+        <div class="child2">
+
+            <img src="./image/pexels-vlada-karpovich-7368313.jpg">
+
+            <center>
+
+                <button type="button" class="btn1">Men's</button>
+
+
+                <p class="child2-text">Travel</p>
+
+                <button type="button" class="btn2">EXPLORE THE COLLECTION</button>
+
+            </center>
+
+        </div>
+     </div>
+
+     <p class="fea">FEATURED</p>
+
+     <div class="product-parent3">
+
+        <div class="child3">
+            <video  autoplay muted loop src="./video-clip/5754890-uhd_2160_3840_25fps.mp4.crdownload" id="vid"></video>
+        </div>
+
+
+        <div class="child3">
+
+            <center class="cen">
+                <div class="head">
+                    
+                    APEX STORE GIFT: HEADING HOME
+
+                </div>
+
+                <P class="child3-text">
+
+                    The third chapter of the Apex Store Gift campaign heads home for the holidays, portraying family get-togethers and the joy of reconnecting with loved ones.
+                </P>
+
+
+                <p class="link"><a href="#">Discover Gucci Gift</a></p>
+            </center>
+        </div>
+
+     </div>
+
+     <center>
+         
+         <p class="text3">APEX STORE SERVICES</p>
+
+     </center>
+
+
+     <div class="product-parent4">
+
+        <div class="child4">
+
+            <video autoplay muted loop src="./video-clip/8798371-uhd_2160_4096_25fps.mp4" class="video"></video>
+
+
+            
+            
+        </div>
+        
+        <div class="child4">
+            
+            <video autoplay muted loop src="./video-clip/8322525-uhd_2160_4096_25fps.mp4.crdownload" class="video"></video>
+            
+            
+        </div>
+        
+        <div class="child4">
+
+            <video autoplay muted loop src="./video-clip/8311915-uhd_2160_4096_25fps.mp4" class="video"></video>
+            
+        </div>
+        
+        
+    </div>
+    
+    
+     <div class="product-parent4">
+         
+         <div class="child4">
+             
+             <center>
+                 
+                 <p class="child4-text">PERSONALIZATION</p>
+                 
+                 <p class="child4-text1">Emboss select bags, luggage, belts, leather accessories, and items from the pet's collection with initials to create a truly unique present.
+
+                 </p>
+                 <a href="#" class="lin">Explore all the options</a>
+                </center>
+        </div>
+        
+        <div class="child4">
+            
+            <center>
+                
+                <p class="child4-text">COLLECT IN STORE</p>
+
+                <p class="child4-text1">
+                    Order your gifts online and collect them from your preferred Gucci boutique.
+                </p>
+
+                <a href="#" class="lin">Discover How</a>
+            </center>
+        </div>
+        
+        <div class="child4">
+            
+            <center>
+                
+                <p class="child4-text">BOOK AN APPIONTMENT</p>
+
+                <p class="child4-text1">
+                    Enjoy priority access to the boutique of your choice at the time and date that suits you. Our Client Advisors will guide you through a selection of pieces, helping you find unforgettable gifts.
+                </p>
+
+                <a href="#" class="lin">Book an In Store Appointment</a>
+            </center>
+        </div>
+
+
+     </div>
+    
+
+     <footer class="footer">
+
+<div class="ball">
+    
+</div>
+        <center class="foot-cen">
+            <h4>SIGN UP FOR APEX STORE UPDATES</h4>
+
+            <article>Join us for the holiday season to find unique gifts and discover the House's latest news.</article>
+        </center>
+        
+        <div class="child-parent">
+            
+            <div class="foot-child">
+                
+                <p class="f-text">MAY WE HELP YOU?</p>
+                
+                <p class="pp">Contact Us</p>
+                <p class="pp">My Order</p>
+                <p class="pp">FAQs</p>
+                <p class="pp">Email Unsubscribe</p>
+                <p class="pp">Sitemap</p>
+            </div>
+            
+            <div class="foot-child">
+
+                <p class="f-text">THE COMPANY</p>
+                
+                <p class="pp">About Gucci</p>
+                <p class="pp">Gucci Equilibrium</p>
+                <p class="pp">Code of Ethics</p>
+                <p class="pp">Careers</p>
+                <p class="pp">Legal</p>
+                <p class="pp">Privacy & Cookie Policy</p>
+                <p class="pp">COOKIES SETTINGS</p>
+                
+            </div>
+            
+            <div class="foot-child">
+                
+                <p class="f-text">APEX STORE SERVICE</p>
+                
+                <p class="pp">Discover Our Services</p>
+                <p class="pp">Book an Appointment</p>
+                <p class="pp">Collect In Store</p>
+            </div>
+            
+        </div>
+
+
+     </footer>
+</body>
+</html>
